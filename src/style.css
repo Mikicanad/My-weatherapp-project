@@ -1,10 +1,10 @@
 body {
     font-family: "Varela Round", sans-serif;
-    background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
+    background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
 }
 
 .weather-app {
-    background: rgba(244, 228, 205, 0.282);
+    background: rgba(247, 239, 227, 0.757);
     border-radius: 16px;
     max-width: 600px;
     margin: 45px auto;
