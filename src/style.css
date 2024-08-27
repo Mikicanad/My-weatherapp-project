@@ -1,6 +1,6 @@
 body {
     font-family: "Varela Round", sans-serif;
-    background: linear-gradient(109.6deg, rgb(151, 213, 255) 11.2%, rgb(255, 155, 185) 91.1%);
+    background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
 }
 
 .weather-app {
@@ -18,10 +18,10 @@ header {
 }
 
 .search-form-input {
-    background: rgba(186, 87, 229, 0.279);
+    background: rgba(206, 135, 237, 0.279);
     border: none;
     border-radius: 8px;
-    width: 80%;
+    width: 75%;
     font-size: 16px;
     padding: 15px 20px;
 
@@ -34,9 +34,34 @@ header {
     border-radius: 8px;
     color: white;
     font-size: 16px;
-    margin-left:5px;
+    margin-left:10px;
+    transition: 0.7s;
+    animation: move_c 2s infinite;
+    cursor: pointer;
 }
 
+
+.search-form-button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: shad26 1.5s infinite;
+    color: #fff;
+}
+
+@keyframes shad26 {
+    0% {
+        box-shadow: 0 0 0 0 rgba(186, 87, 229, 0.667);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(39 172 217 / 0%);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(39 172 217 / 0%);
+    }
+}
 
 main {
     padding: 30px 0;
@@ -50,7 +75,7 @@ justify-content: space-between;
 
 .weather-app-city {
     margin: 0;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 40px;
 }
 
