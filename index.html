@@ -12,21 +12,23 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city.." required />
-            <input type="submit" value="Search" />
+        <form class="search-from">
+            <input type="search" placeholder="Enter a city.." required class="search-form-input"/>
+            <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
     <main>
+        <div class="weather-app-data">
         <div>
-    <h1>New York</h1>
-    <p>
+    <h1 class="weather-app-city">New York</h1>
+    <p class="weather-app-details">
         Tuesday 14:49, scattered clouds
         <br />
         Humidity: 66%, Wind: 3.13km/h
     </p>
     </div>
-    <div>🌤 12°C</div>
+    <div class="weather-app-temperature">🌤 12°C</div>
+    </div>
    </main>
     <footer>This project Coded by <a href="https://github.com/Mikicanad" target="_blank">Miki</a>
         and <a href="https://github.com/Mikicanad/My-weatherapp-project" target="_blank">open-sourced on Github</a>
