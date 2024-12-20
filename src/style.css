@@ -190,3 +190,46 @@ a:hover {
     box-shadow: inset 170px 0 0 0 #e98bef;
     ;
 }
+
+@media (max-width: 700px) {
+    .weather-app {
+        padding: 20px;
+        max-width: 95%;
+    }
+
+    .weather-app-city {
+        font-size: 24px;
+    }
+
+    .weather-app-details {
+        font-size: 14px;
+    }
+
+    .weather-app-temperature {
+        font-size: 64px;
+    }
+
+    .weather-app-icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .weather-app-unit {
+        font-size: 20px;
+    }
+
+    .weather-forecast {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .weather-forecast-temperature strong,
+    .weather-forecast-date {
+        font-size: 14px;
+    }
+
+    .weather-forecast-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
